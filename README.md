@@ -1,7 +1,10 @@
 # lab04-Dune
 192-211 Automated Software Testing
 
+
 ## Group Name - Dune
+
+
 
 ## Who Did What
 
@@ -17,6 +20,15 @@
 ### Our Merge Conflict
 
 We had a merge conflict in the `README.md` file because my changes and another member's changes were made in the same part of the file. Git could not decide which changes to keep, so it showed conflict markers like `<<<<<<<`, `=======`, and `>>>>>>>`. I checked the changes, kept the information we needed, removed the conflict markers, and then committed the fixed README.
+
+
+### Git Contribution Summary
+
+    15  SwamPyaePaing
+    13  Soe Moe Hein
+    12  Wha1e0134
+     6  Minn Khant Si Thu
+     5  thethtoo724-design
 
 
 ### Reflection Questions
