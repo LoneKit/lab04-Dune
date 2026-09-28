@@ -23,6 +23,8 @@ We had a merge conflict in the `README.md` file because my changes and another m
 
 
 ### Git Contribution Summary
+    
+    Output of "git shortlog -sn"
 
     15  SwamPyaePaing
     13  Soe Moe Hein
