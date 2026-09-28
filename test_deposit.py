@@ -1,9 +1,13 @@
-def test_deposit_increases_balance(account):
-    account.deposit(50)
-    assert account.balance == 150
+import pytest
+from bank import BankAccount
 
+@pytest.fixture
+def account():
+    return BankAccount(100)
+
+def test_deposit_increases_balance(account):
+    assert account.deposit(50) == 150
 
 def test_deposit_twice_increases_balance(account):
     account.deposit(50)
-    account.deposit(25)
-    assert account.balance == 175
+    assert account.deposit(25) == 175
