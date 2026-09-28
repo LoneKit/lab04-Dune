@@ -17,17 +17,20 @@
 | Thet Htoo Aung | thethtoo724-design | test_deposit.py |
 
 
+
 ### Our Merge Conflict
 
 During Round 3, our group experienced a merge conflict while working on the README.md file. Different members edited the same section of the file at the same time. Git therefore marked the conflicting changes using conflict markers.
 
 The conflict appeared in the following form:
 
+```text
 <<<<<<< HEAD
 | Member A | GitHub Username | test_withdraw.py |
 =======
 | Member B | GitHub Username | test_deposit.py |
 >>>>>>> commit
+```
 
 After reviewing the changes, our team decided to keep the correct contribution information from all five members. The final Who Did What table was:
 
@@ -44,6 +47,7 @@ We removed the conflict markers, combined the valid information, and committed t
 Git could not automatically resolve the conflict because different members had changed the same part of the README at the same time. Git could identify that the versions were different, but it could not determine which information the team wanted to keep. Therefore, we had to review the changes and resolve the conflict manually.
 
 Important: If you want to show the exact conflict, replace the example conflict block with the exact <<<<<<< ... ======= ... >>>>>>> lines that actually appeared in your terminal. That is stronger evidence for the assignment's Round 3 requirement.
+
 
 
 ### Git Contribution Summary
