@@ -6,12 +6,10 @@ from bank import BankAccount
 def account():
     return BankAccount(100)
 
-
 def test_withdraw_reduces_balance(account):
     account.withdraw(40)
     assert account.balance == 60
 
-
 def test_overdraft_raises_value_error(account):
     with pytest.raises(ValueError):
-        account.withdraw(150)
+        account.withdraw(150) 
