@@ -1,13 +1,10 @@
 # lab04-Dune
-<<<<<<< HEAD
+
+## Who Did What
 
 | Member | GitHub Username | File |
 |Created test_withdraw.py|fixture for BankAccount(100)|one test for a successful withdrawal|
 | Member(B) Nyi Sett | Wha1e0134 | test_withdraw.py |
-
-=======
-<<<<<<< HEAD
-## Who Did What
 
 | Member | GitHub Username | File |
 |---|---|---|
