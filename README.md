@@ -11,9 +11,9 @@
 | Thet Htoo Aung | thethtoo724-design | test_deposit.py |
 
 
+### Our Merge Conflict
 
-
-## Our Merge Conflict
+We had a merge conflict in the `README.md` file because my changes and another member's changes were made in the same part of the file. Git could not decide which changes to keep, so it showed conflict markers like `<<<<<<<`, `=======`, and `>>>>>>>`. I checked the changes, kept the information we needed, removed the conflict markers, and then committed the fixed README.
 
 
 ### Reflection Questions
