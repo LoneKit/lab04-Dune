@@ -8,13 +8,13 @@
 
 ## Who Did What
 
-| Member | GitHub Username | File |
-|---|---|---|
-| Minn Khant Si Thu | minnkhantsithu | test_teardown.py |
-| Nyi Sett | Wha1e0134 | test_withdraw.py |
-| Soe Moe Hein | 6705142013-SoeMoe | test_shared.py |
-| Swam Pyae Paing | LoneKit | conftest.py |
-| Thet Htoo Aung | thethtoo724-design | test_deposit.py |
+| Member | ID | GitHub Username | File |
+|---|---|---|---|
+| Minn Khant Si Thu | 6705142014 | minnkhantsithu | test_teardown.py |
+| Nyi Sett | 6705140078 | Wha1e0134 | test_withdraw.py |
+| Soe Moe Hein | 6705142013 | 6705142013-SoeMoe | test_shared.py |
+| Swam Pyae Paing | 6705142028 | LoneKit | conftest.py |
+| Thet Htoo Aung | 6705142042 | thethtoo724-design | test_deposit.py |
 
 
 
