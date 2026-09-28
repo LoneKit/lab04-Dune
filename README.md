@@ -32,16 +32,6 @@ The conflict appeared in the following form:
 >>>>>>> commit
 ```
 
-After reviewing the changes, our team decided to keep the correct contribution information from all five members. The final Who Did What table was:
-
-| Member | GitHub Username | File |
-|---|---|---|
-| Minn Khant Si Thu | minnkhantsithu | test_teardown.py |
-| Nyi Sett | Wha1e0134 | test_withdraw.py |
-| Soe Moe Hein | 6705142013-SoeMoe | test_shared.py |
-| Swam Pyae Paing | LoneKit | conftest.py |
-| Thet Htoo Aung | thethtoo724-design | test_deposit.py |
-
 We removed the conflict markers, combined the valid information, and committed the resolved README.md.
 
 Git could not automatically resolve the conflict because different members had changed the same part of the README at the same time. Git could identify that the versions were different, but it could not determine which information the team wanted to keep. Therefore, we had to review the changes and resolve the conflict manually.
@@ -54,7 +44,7 @@ Important: If you want to show the exact conflict, replace the example conflict 
     
     Output of "git shortlog -sn"
 
-    15  SwamPyaePaing
+    19  SwamPyaePaing
     13  Soe Moe Hein
     12  Wha1e0134
      6  Minn Khant Si Thu
