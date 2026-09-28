@@ -1,4 +1,7 @@
 # lab04-Dune
+192-211 Automated Software Testing
+
+## Group Name - Dune
 
 ## Who Did What
 
