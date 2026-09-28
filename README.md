@@ -19,7 +19,31 @@
 
 ### Our Merge Conflict
 
-We had a merge conflict in the `README.md` file because my changes and another member's changes were made in the same part of the file. Git could not decide which changes to keep, so it showed conflict markers like `<<<<<<<`, `=======`, and `>>>>>>>`. I checked the changes, kept the information we needed, removed the conflict markers, and then committed the fixed README.
+During Round 3, our group experienced a merge conflict while working on the README.md file. Different members edited the same section of the file at the same time. Git therefore marked the conflicting changes using conflict markers.
+
+The conflict appeared in the following form:
+
+<<<<<<< HEAD
+| Member A | GitHub Username | test_withdraw.py |
+=======
+| Member B | GitHub Username | test_deposit.py |
+>>>>>>> commit
+
+After reviewing the changes, our team decided to keep the correct contribution information from all five members. The final Who Did What table was:
+
+| Member | GitHub Username | File |
+|---|---|---|
+| Minn Khant Si Thu | minnkhantsithu | test_teardown.py |
+| Nyi Sett | Wha1e0134 | test_withdraw.py |
+| Soe Moe Hein | 6705142013-SoeMoe | test_shared.py |
+| Swam Pyae Paing | LoneKit | conftest.py |
+| Thet Htoo Aung | thethtoo724-design | test_deposit.py |
+
+We removed the conflict markers, combined the valid information, and committed the resolved README.md.
+
+Git could not automatically resolve the conflict because different members had changed the same part of the README at the same time. Git could identify that the versions were different, but it could not determine which information the team wanted to keep. Therefore, we had to review the changes and resolve the conflict manually.
+
+Important: If you want to show the exact conflict, replace the example conflict block with the exact <<<<<<< ... ======= ... >>>>>>> lines that actually appeared in your terminal. That is stronger evidence for the assignment's Round 3 requirement.
 
 
 ### Git Contribution Summary
@@ -46,4 +70,4 @@ We had a merge conflict in the `README.md` file because my changes and another m
 
 4. **How do fixtures reduce duplicated setup code in tests?**
    Fixtures let us prepare something once and use it in different tests. This means we do not have to write the same setup code again and again.
-6
+
